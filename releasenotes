@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export REDMINE_URL=
+export REDMINE_KEY=
+
+java -jar redmine-releasenotes "$@"
